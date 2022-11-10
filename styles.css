@@ -1,1 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* Menu */
+.bg-dark {
+  background-color:#565656!important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #fba92c /* This controls the color of what is being hovered over */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF;
+  height: 50px;
+  font-family: Georgia, serif;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.nav-item {
+  float: right; 
+}
+.nav-item active{
+    color:black;
+}
+
+
+body {
+	/*background-image: linear-gradient( 180deg,  rgba(247,247,247,1) 23.8%, rgba(252,221,221,1) 92% );*/
+	/*font-family: 'Open Sans', sans-serif;*/
+	display: flex;
+	/*align-items: center;*/
+/*	justify-content: center;*/
+	flex-direction: column;
+/*	height: 100vh;*/
+/*	margin: 0;*/
+background-color: #000000;
+}
+
+.results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.result {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+	height: 700px;
+	width: 500px;
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-color: #fba92c;
+	border: 0;
+	border-radius: 4px;
+	color: #000000;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px;
+	width: 500px;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
 
