@@ -11,7 +11,7 @@
 .navbar-dark .navbar-nav .nav-link {
   color: #FFFFFF;
   height: 50px;
-  font-family: Georgia, serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 20px;
   font-size: 20px;
 }
@@ -25,9 +25,20 @@
 
 
 body {
+	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	flex-direction: column;
 	background-color: #000000;
+}
+
+p {
+	color:#FFFFFF;
+}
+
+h2 {
+	text-align: center;
+	color:#FFFFFF;
+	padding: 30px;
 }
 
 .results {
@@ -37,7 +48,7 @@ body {
 }
 
 .result {
-	background-color: #fff;
+	background-color: #000000;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -77,3 +88,10 @@ button:focus {
 	outline: none
 }
 
+@media screen and (max-width: 1000px) {
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+}
